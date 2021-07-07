@@ -101,9 +101,9 @@ analytics:
 
 # Site Author
 author:
-  name             : "ERPHUB"
+  name             : # "ERPHUB"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "On The Way to Dynamics Business Central Specialist"
+  bio              : # "On The Way to Dynamics Business Central Specialist"
   location         : # "NZ"
   email            :
   links:
