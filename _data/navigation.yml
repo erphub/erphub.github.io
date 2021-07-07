@@ -4,9 +4,56 @@ main:
     url: https://mmistakes.github.io/minimal-mistakes/about/
   - title: "Dynamics Business Central"
     url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
-   # - title: "Sample Posts"
+  # - title: "Sample Posts"
   #   url: /year-archive/
   # - title: "Sample Collections"
   #   url: /collection-archive/
   # - title: "Sitemap"
   #   url: /sitemap/
+
+docs:
+  - title: Getting Started
+    children:
+      - title: "Quick-Start Guide"
+        url: /docs/quick-start-guide/
+      - title: "Structure"
+        url: /docs/structure/
+      - title: "Installation"
+        url: /docs/installation/
+      - title: "Upgrading"
+        url: /docs/upgrading/
+
+  - title: Dynamics Business Central
+    children:
+      - title: "Administrator"
+        url: /docs/configuration/
+      - title: "Finance - Account Payable"
+        url: /docs/navigation/
+      - title: "Finance - Account Receivable"
+        url: /docs/navigation/
+      - title: "Logistic"
+        url: /docs/ui-text/
+      - title: "Manufacturing"
+        url: /docs/authors/
+      - title: "Layouts"
+        url: /docs/layouts/
+
+  - title: Content
+    children:
+      - title: "Working with Posts"
+        url: /docs/posts/
+      - title: "Working with Pages"
+        url: /docs/pages/
+      - title: "Working with Collections"
+        url: /docs/collections/
+      - title: "Helpers"
+        url: /docs/helpers/
+      - title: "Utility Classes"
+        url: /docs/utility-classes/
+
+  - title: Extras
+    children:
+      - title: "Stylesheets"
+        url: /docs/stylesheets/
+      - title: "JavaScript"
+        url: /docs/javascript/
