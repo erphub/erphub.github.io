@@ -16,9 +16,9 @@ minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt"
 
 # Site Settings
 locale                   : "en-US"
-title                    : "All About ERP"
+title                    : "ERPHUB"
 title_separator          : "-"
-subtitle                 : # site tagline that appears below site title in masthead
+subtitle                 : "All About ERP"
 name                     : "ERPHUB"
 description              : "Microsoft Dynamics Business Central Guide"
 url                      : https://erphub.github.io
