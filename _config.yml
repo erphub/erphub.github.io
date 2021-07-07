@@ -104,7 +104,7 @@ author:
   name             : "ERPHUB"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "On The Way to Dynamics Business Central Specialist"
-  location         : "NZ"
+  location         : # "NZ"
   email            :
   links:
     - label: "Email"
