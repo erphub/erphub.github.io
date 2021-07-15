@@ -17,6 +17,8 @@ docs:
 
   - title: Dynamics Business Central
     children:
+      - title: "Get Started"
+        url: /docs/configuration/
       - title: "Administrator"
         url: /docs/configuration/
       - title: "Finance - Account Payable"
