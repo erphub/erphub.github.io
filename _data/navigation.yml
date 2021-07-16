@@ -14,7 +14,7 @@ main:
 docs:
   - title: GitHub Config
     url: /posts/github-config/
-    icon: fa-home
+    icon: "fab fa-fw fa-github"
 
   - title: Dynamics Business Central
     children:
