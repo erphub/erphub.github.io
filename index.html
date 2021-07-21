@@ -4,6 +4,6 @@ layout: home
 
 <div>
     {% for category in site.categories %}
-        {{ category | first}} ({{ category | last | size}})
+        <li>{{ category | first}} ({{ category | last | size}})</li>
     {% endfor %}
 </div>
