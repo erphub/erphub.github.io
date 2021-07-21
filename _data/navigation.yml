@@ -17,6 +17,9 @@ docs:
   #  icon: fab fa-fw fa-github
 
   - title: Dynamics Business Central
+    attributes:
+      style:
+        - "background:url('/assets/images/logo_MS_Dynamics_BC.png') no-repeat"
     children:
       - title: "Get Started"
         url: /docs/configuration/
