@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Business Central - To create test company"
+title: "Business Central - To create a test company"
 categories: ['Dynamics Business Central', 'Administration']
 ---
 # To create test company
