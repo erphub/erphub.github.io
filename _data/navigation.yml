@@ -24,7 +24,7 @@ docs:
       - title: "Get Started"
         url: /docs/configuration/
       - title: "Administration"
-        url: /docs/configuration/
+        url: /categories/Administration/
       - title: "Finance - Account Payable"
         url: /docs/navigation/
       - title: "Finance - Account Receivable"
