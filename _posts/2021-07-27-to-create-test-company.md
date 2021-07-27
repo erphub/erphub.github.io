@@ -1,7 +1,6 @@
 ---
 layout: post
 title: "To create test company"
-date: "Last compiled on `r format(Sys.time(), '%d %B, %Y')`"
 categories: ['Dynamics Business Central', 'Administration']
 ---
 # To create test company
