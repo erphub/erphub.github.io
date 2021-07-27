@@ -1,4 +1,4 @@
 ---
 layout: category
-title: bc_getstarted
+title: Administration
 ---
