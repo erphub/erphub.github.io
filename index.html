@@ -4,10 +4,9 @@ first_cat: ['Dynamics Business Central']
 ---
 
 <div>
-    
-        {% for category in site.categories %}
-            {% if page.first_cat contains category[0] %}<h2><img src="/assets/images/logo_MS_Dynamics_BC.png"> {{ category | first}} ({{ category | last | size}})</h2><ul>{% else %} <li><a href="/categories/{{ category | first }}" style="text-decoration: none;"> {{ category | first}} <sub class="roundbg">{{ category | last | size}}</sub></a></li> 
-            {% endif %}
-        {% endfor %}
+    {% for category in site.categories %}
+        {% if page.first_cat contains category[0] %}<h2><img src="/assets/images/logo_MS_Dynamics_BC.png"> {{ category | first}} ({{ category | last | size}})</h2><ul>{% else %} <li><a href="/categories/{{ category | first }}" style="text-decoration: none;"> {{ category | first}} <sub class="roundbg">{{ category | last | size}}</sub></a></li> 
+        {% endif %}
+    {% endfor %}
     </ul>
 </div>
