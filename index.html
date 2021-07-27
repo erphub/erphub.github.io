@@ -6,7 +6,7 @@ first_cat: ['Dynamics Business Central']
 <div>
     
         {% for category in site.categories %}
-            {% if page.first_cat contains category[0] %}<h2><img src="/assets/images/logo_MS_Dynamics_BC.png"> {{ category | first}} ({{ category | last | size}})</h2><ul>{% else %} <li><a href="/categories/{{ category | first }}"> {{ category | first}} > ({{ category | last | size}})</a></li> 
+            {% if page.first_cat contains category[0] %}<h2><img src="/assets/images/logo_MS_Dynamics_BC.png"> {{ category | first}} ({{ category | last | size}})</h2><ul>{% else %} <li><a href="/categories/{{ category | first }}"> {{ category | first}} >{{ category | last | size}}</a></li> 
             {% endif %}
         {% endfor %}
     </ul>
