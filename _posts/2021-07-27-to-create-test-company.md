@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: posts
 title: "Business Central - To create a test company"
 categories: ['Dynamics Business Central', 'Administration']
 ---
