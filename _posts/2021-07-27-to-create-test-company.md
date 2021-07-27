@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  "To create test company"
-date:   2021-07-27
+title: "To create test company"
+date: 2021-07-27
 categories: ['Dynamics Business Central', 'Administration']
 ---
 #To create test company
