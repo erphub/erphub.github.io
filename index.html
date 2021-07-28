@@ -2,7 +2,7 @@
 layout: splash
 first_cat: ['Github', 'Dynamics Business Central']
 ---
-
+{{ site.categories }}
 <div>
     {% for category in site.categories %}
         {% if page.first_cat[0] == category[0] %}<h2><img src="/assets/images/logo_Github.png"> {{ category | first}} ({{ category | last | size}})</h2><ul>{% else %} <li><a href="/categories/{{ category | first }}" style="text-decoration: none;"> {{ category | first}} <span class="roundbg" style="font-size: 75%;">{{ category | last | size}}</span></a></li> 
