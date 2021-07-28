@@ -24,7 +24,7 @@ docs:
       - title: "Get Started"
         url: /docs/configuration/
       - title: "Administration"
-        url: /categories/Administration/
+        url: /Dynamics Business Central/Administration/
       - title: "Finance - Account Payable"
         url: /docs/navigation/
       - title: "Finance - Account Receivable"
