@@ -17,7 +17,14 @@
                 <!--category[1].size 로 해당 카테고리를 가진 글의 개수 표시--> 
                 {% for category in site.categories %}
                     {% if category[0] == "Get Started" %}
-                        <li><a href="/Github/Get Started/" class=""> Get Started ({{category[1].size}})</a></li>
+                        <li><a href="/Github/Get Started/" class=""> 
+                            {% if page.categories[0] == "Github" and page.categories[1] == "Get Strated" %}
+                                <span class="nav_active" style="font-weight:bold;">Get Started ({{category[1].size}})</span>
+                            {% else %}
+                                Get Started ({{category[1].size}})
+                            {% endif %}
+                            </a>
+                        </li>
                     {% endif %}
                 {% endfor %}
             </ul>
