@@ -1,6 +1,6 @@
 ---
 layout: category
-category: Administration
+categories: ["Dynamics Business Central", "Administration"]
 permalink: /Dynamics Business Central/Administration/
 sidebar_main: true
 ---
