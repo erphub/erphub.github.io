@@ -38,7 +38,7 @@
                                 {% else %}
                                     {{ assign spanclass = "" }}
                                  {% endif %}
-                                <span class="{{ spanclass }}">Administration ({{category[1].size}})</span>
+                                <span class="roundbg">Administration ({{category[1].size}}) {{ spanclass }}</span>
                                 </a>
                             </li>
                     {% endif %}
