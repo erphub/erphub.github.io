@@ -34,9 +34,9 @@
                     {% if category[0] == "Administration" %}
                             <li><a href="/Dynamics Business Central/Administration/" class="">
                                 {% if page.categories[0] == "Dynamics Business Central" and page.categories[1] == "Administration" %}
-                                    {{ assign spanclass="roundbg" }}
+                                    {{ assign spanclass = "roundbg" }}
                                 {% else %}
-                                    {{ assign spanclass="" }}
+                                    {{ assign spanclass = "" }}
                                 <span class="{{ spanclass }}">Administration ({{category[1].size}})</span>
                                 {% endif %}
                                 </a>
