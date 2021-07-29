@@ -37,8 +37,8 @@
                                     {{ assign spanclass = "roundbg" }}
                                 {% else %}
                                     {{ assign spanclass = "" }}
+                                 {% endif %}
                                 <span class="{{ spanclass }}">Administration ({{category[1].size}})</span>
-                                {% endif %}
                                 </a>
                             </li>
                     {% endif %}
