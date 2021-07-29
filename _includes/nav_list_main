@@ -32,12 +32,15 @@
             <ul>
                 {% for category in site.categories %}
                     {% if category[0] == "Administration" %}
-                        {% if page.category[1] == "Administration" %}
-                            <li class="roundbg">
-                        {% else %}
-                            <li>
-                        {% endif %}
-                            <a href="/Dynamics Business Central/Administration/" class=""> Administration ({{category[1].size}})</a></li>
+                            <li><a href="/Dynamics Business Central/Administration/" class="">
+                                {% if page.categories[0] == "Dynamics Business Central" and page.categories[1] == "Administration" %}
+                                    {{ assign spanclass="roundbg" }}
+                                {% else %}
+                                    {{ assign spanclass="" }}
+                                <span class="{{ spanclass }}">Administration ({{category[1].size}})</span>
+                                {% endif %}
+                                </a>
+                            </li>
                     {% endif %}
                 {% endfor %}
             </ul>
