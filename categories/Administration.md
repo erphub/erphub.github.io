@@ -9,7 +9,7 @@ sidebar_main: true
 {% for category in site.categories %}
   
     {% for post in category[1] %}
-      {{ post.category }}
+      {% include archive-single.html type=page.entries_layout %}
     {% endfor %}
 
 {% endfor %}
