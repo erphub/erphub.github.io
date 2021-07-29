@@ -2,7 +2,6 @@
 layout: category
 categories: ["Github", "Get Started"]
 permalink: /Github/Get Started/
-sidebar_main: true
 ---
 {% for category in site.categories %}
     {% if category[0] == page.categories[0] %}
