@@ -32,7 +32,7 @@
             <ul>
                 {% for category in site.categories %}
                     {% if category[0] == "Administration" %}
-                        <li><a href="/categories/algorithm" class=""> Administration ({{category[1].size}})</a></li>
+                        <li><a href="/Dynamics Business Central/Administration/" class=""> Administration ({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>
