@@ -2,7 +2,7 @@
 layout: category
 categories: ["Dynamics Business Central", "Administration"]
 permalink: /Dynamics Business Central/Administration/
-sidebar_main: true
+
 ---
 {% for category in site.categories %}
     {% if category[0] == page.categories[0] %}
