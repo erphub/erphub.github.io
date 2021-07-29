@@ -18,7 +18,7 @@
                 {% for category in site.categories %}
                     {% if category[0] == "Get Started" %}
                         <li><a href="/Github/Get Started/" class=""> 
-                            {% if page.categories[0] == "Github" and page.categories[1] == "Get Strated" %}
+                            {% if page.categories[0] == "Github" and page.categories[1] == "Get Started" %}
                                 <span class="nav_active" style="font-weight:bold;">Get Started ({{category[1].size}})</span>
                             {% else %}
                                 Get Started ({{category[1].size}})
