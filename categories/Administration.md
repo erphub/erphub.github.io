@@ -6,6 +6,10 @@ sidebar_main: true
 ---
 <a href="https://erphub.github.io">HOME</a>
 
-{% for post in page.categories[0] %} {% include archive-single.html type=page.entries_layout %} {% endfor %}
-
-
+{% for category in site.categories %}
+  {% if category == page.categories[0] %}
+    {% for post in category[1] %}
+      {% include archive-single.html type=page.entries_layout %}
+    {% endfor %}
+  {% endif %}
+{% endfor %}
