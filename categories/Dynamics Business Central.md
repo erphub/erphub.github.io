@@ -1,6 +1,7 @@
 ---
 layout: category
 title: Dynamics Business Central
+category: "Dynamics Business Central"
 permalink: /Dyanamics Business Central/
 ---
 
