@@ -34,11 +34,10 @@
                     {% if category[0] == "Administration" %}
                             <li><a href="/Dynamics Business Central/Administration/" class="">
                                 {% if page.categories[0] == "Dynamics Business Central" and page.categories[1] == "Administration" %}
-                                    true
+                                    <span class="nav_active" style="font-weight:bold;">Administration ({{category[1].size}})</span>
                                 {% else %}
-                                    false
+                                    Administration ({{category[1].size}})
                                  {% endif %}
-                                <span class="nav_active" style="font-weight:bold;">Administration ({{category[1].size}}) {{ page.categories }}</span>
                                 </a>
                             </li>
                     {% endif %}
