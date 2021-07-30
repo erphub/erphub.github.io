@@ -17,7 +17,7 @@ It's hassle to update exchange rate everyday. We can set up automatic updates fo
 
 3. Key in following fields like screenshot below. \
 ![full](/assets/images/bc_exchange_rate_02.png "Business Central - Exchange Rate Updates"){: .full}
-- Code: FLOATRATES
+- **Code:** FLOATRATES
 - Description: from floatrates.com
 - Service URL: http://www.floatrates.com/daily/nzd.xml
 - Service Provider: floatrates.com
