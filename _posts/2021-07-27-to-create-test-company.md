@@ -3,7 +3,7 @@ layout: posts
 title: "Business Central - To create a test company"
 categories: ['Dynamics Business Central', 'Administration']
 classes: wide
-excerpt: "How to copy whole Business Central live company to test company including data for testing purpose."
+excerpt: "How to copy whole Dynamics Business Central live company to test company including data for testing purpose."
 ---
 
 ### Objective
