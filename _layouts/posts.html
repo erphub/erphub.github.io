@@ -5,9 +5,7 @@ layout: archive
 {% include page__meta.html type=include.type %}
 {{ content }}
 <!-- /_includes/related.html -->
-
-<div class="notice">
-<h4>Other posts in the category</h4>
+<h3>Other posts in the category</h3>
 {% for category in site.categories %}
     {% if category[0] == page.categories[0] %}
         {% assign parent_cat = category[0] %}
@@ -20,4 +18,3 @@ layout: archive
         {% endfor %}
     {% endif %}
 {% endfor %}
-</div>
