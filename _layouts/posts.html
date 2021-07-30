@@ -5,9 +5,7 @@ layout: archive
 {{ content }}
 <!-- /_includes/related.html -->
 
-<div class="container">
-  <div class="double-bar"><span>OTHER POSTS IN THE CATEGORY</span></div>
-</div>
+<h3>Other posts in the category</h3>
 <div class="tiles">
   {% for post in site.related_posts limit:3 %}
     <article class="tile__item" itemscope itemtype="http://schema.org/CreativeWork">
