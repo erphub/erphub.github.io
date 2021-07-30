@@ -4,10 +4,9 @@ layout: archive
 <span style="font-size: 75%;"><a href="https://erphub.github.io" style="text-decoration: none;">HOME</a> / <a href="/{{ page.categories[0] }}/" style="text-decoration: none;">{{ page.categories[0] }}</a> / <a href="/{{ page.categories[0] }}/{{ page.categories[1] }}/" style="text-decoration: none;">{{ page.categories[1] }}</a></span>
 {{ content }}
 <!-- /_includes/related.html -->
-
-  <h4 class="page__related-title">Other posts in the category</h4>
-  <div class="grid__wrapper">
-    {% for post in site.related_posts limit:4 %}
-      {% include archive-single.html type="grid" %}
-    {% endfor %}
-  </div>
+<h4 class="page__related-title">Other posts in the category</h4>
+<div class="grid__wrapper">
+  {% for post in site.related_posts limit:4 %}
+    {% include archive-single.html type="grid" %}
+  {% endfor %}
+</div>
