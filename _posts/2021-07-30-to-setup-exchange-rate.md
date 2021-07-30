@@ -10,12 +10,12 @@ excerpt: "How to set up automatic currency exchange rate updates on Dynamics Bus
 It's hassle to update exchange rate everyday. We can set up automatic updates for exchange rates on Dynamics Business Central.
 
 ### Procedure
-1. Choose the ![Alt](/assets/images/icon_search.png "Search Icon") icon, enter ***Currency Exchange Rate Services***, and then choose the related link.
+1. Choose the ![Alt](/assets/images/icon_search.png "Search Icon") icon, enter ***Currency Exchange Rate Services***, and then choose the related link. \
 
-2. On the ***Currency Exchange Rate Services*** page, choose the ***New*** action. /
+2. On the ***Currency Exchange Rate Services*** page, choose the ***New*** action. \
 ![full](/assets/images/bc_exchange_rate_01.png "Business Central - Exchange Rate Updates"){: .full}
 
-3. Key in following fields like screenshot below. /
+3. Key in following fields like screenshot below. \
 ![full](/assets/images/bc_exchange_rate_02.png "Business Central - Exchange Rate Updates"){: .full}
 - Code: FLOATRATES
 - Description: from floatrates.com
@@ -27,10 +27,10 @@ It's hassle to update exchange rate everyday. We can set up automatic updates fo
 - Exchange Rate Amount: /channel/item/exchangeRate
 - Relational Exch. Rate Amount: 1 (under Default Value column)
 
-4. Click on drop-down of Transformation Rule column on Starting Date row then click ***New*** action. /
+4. Click on drop-down of Transformation Rule column on Starting Date row then click ***New*** action. \
 ![full](/assets/images/bc_exchange_rate_03.png "Business Central - Exchange Rate Updates"){: .full}
 
-5. Key in following fields like screenshot below. Then click ***OK***. /
+5. Key in following fields like screenshot below. Then click ***OK***. \
 ![full](/assets/images/bc_exchange_rate_04.png "Business Central - Exchange Rate Updates"){: .full}
 - Code: FLOAT_DATE
 - Transformation Type: Substring
@@ -38,14 +38,14 @@ It's hassle to update exchange rate everyday. We can set up automatic updates fo
 - Starting Text: “ “ (This is space not blank)
 - Ending Text: “ GMT” (This is a space, then GMT)
 
-6. Click on ***Enabled*** button. /
+6. Click on ***Enabled*** button. \
 ![full](/assets/images/bc_exchange_rate_05.png "Business Central - Exchange Rate Updates"){: .full}
 
-7. Then click on ***Yes*** on popped up window. /
+7. Then click on ***Yes*** on popped up window. \
 ![full](/assets/images/bc_exchange_rate_06.png "Business Central - Exchange Rate Updates"){: .full}
 
-8. Click on ***Process*** and ***Set Status to Ready***. /
+8. Click on ***Process*** and ***Set Status to Ready***. \
 ![full](/assets/images/bc_exchange_rate_07.png "Business Central - Exchange Rate Updates"){: .full}
 
-9. Choose the ![Alt](/assets/images/icon_search.png "Search Icon") icon, enter ***Currencies***, and then choose the related link. Then check whether Exchange Rates are updated. If you don’t see any exchange rates, then click on ***Exchange Rate Service -> Update Exchange Rates***. /
+9. Choose the ![Alt](/assets/images/icon_search.png "Search Icon") icon, enter ***Currencies***, and then choose the related link. Then check whether Exchange Rates are updated. If you don’t see any exchange rates, then click on ***Exchange Rate Service -> Update Exchange Rates***. \
 ![full](/assets/images/bc_exchange_rate_08.png "Business Central - Exchange Rate Updates"){: .full}
