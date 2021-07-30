@@ -302,3 +302,16 @@ defaults:
       share: true
       related: true
       sidebar_main: true
+
+  # _category
+  - scope:
+      path: ""
+      type: category
+    values:
+      layout: single
+      author_profile: false
+      read_time: true
+      comments: # true
+      share: true
+      related: true
+      sidebar_main: true
