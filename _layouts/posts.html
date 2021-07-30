@@ -11,4 +11,13 @@ layout: archive
     {% include archive-single.html type="grid" %}
   {% endfor %}
 </div>
-
+{% for category in site.categories %}
+    {% if category[0] == page.categories[0] %}
+        {% assign parent_cat = category[0] %}
+    {% endif %}
+    {% if parent_cat == page.categories[0] and category[0] == page.categories[1] %}
+        {% for post in category[1] %}
+            {% include archive-single.html type="grid" %}
+        {% endfor %}
+    {% endif %}
+{% endfor %}
