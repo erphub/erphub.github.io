@@ -14,9 +14,9 @@ Sometimes we need to test features or data before applying to live environment. 
 2. Select live company which you like to copy from. Then go to ***Process*** and select ***Copy***.
 ![full](/assets/images/bc_create_company_02.png "Business Central - Copying Company"){: .full}
 
-3. New modal pops up and enter new test company name. Then switch on ***I understand*** button and click ***OK*** button.
+3. New modal pops up and enter new test company name. Then switch on ***I understand*** button and click ***OK*** button. \
 <img src="/assets/images/bc_create_company_03.png" alt="Business Central - Copying Company">
 
 4. You will see a succesful message when the company copied.
 
-<div class="notice--warning"> It may affect performance of live company depending on size of live company. </div>
+<div class="notice--warning">WARNING - It may affect performance of live company depending on size of live company.</div>
