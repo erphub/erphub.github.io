@@ -4,8 +4,8 @@ layout: archive
 <span style="font-size: 75%;"><a href="https://erphub.github.io" style="text-decoration: none;">HOME</a> / <a href="/{{ page.categories[0] }}/" style="text-decoration: none;">{{ page.categories[0] }}</a> / <a href="/{{ page.categories[0] }}/{{ page.categories[1] }}/" style="text-decoration: none;">{{ page.categories[1] }}</a></span>
 {{ content }}
 <!-- /_includes/related.html -->
-***
-<h3 class="tile__header">You May Also Enjoy</h3>
+
+> <h3 class="tile__header">You May Also Enjoy</h3>
 <div class="tiles">
   {% for post in site.related_posts limit:3 %}
     <article class="tile__item" itemscope itemtype="http://schema.org/CreativeWork">
