@@ -18,25 +18,25 @@ It's hassle to update exchange rate everyday. We can set up automatic updates fo
 3. Key in following fields like screenshot below. \
 ![full](/assets/images/bc_exchange_rate_02.png "Business Central - Exchange Rate Updates"){: .full}
 - **Code:** FLOATRATES
-- Description: from floatrates.com
-- Service URL: http://www.floatrates.com/daily/nzd.xml
-- Service Provider: floatrates.com
-- Parent Node for Currency Code: /channel/item/targetCurrency
-- Currency Code: /channel/item/targetCurrency
-- Starting Date: /channel/item/pubDate
-- Exchange Rate Amount: /channel/item/exchangeRate
-- Relational Exch. Rate Amount: 1 (under Default Value column)
+- **Description:** from floatrates.com
+- **Service URL:** http://www.floatrates.com/daily/nzd.xml
+- **Service Provider:** floatrates.com
+- **Parent Node for Currency Code:** /channel/item/targetCurrency
+- **Currency Code:** /channel/item/targetCurrency
+- **Starting Date:** /channel/item/pubDate
+- **Exchange Rate Amount:** /channel/item/exchangeRate
+- **Relational Exch. Rate Amount:** 1 (under Default Value column)
 
 4. Click on drop-down of Transformation Rule column on Starting Date row then click ***New*** action. \
 ![full](/assets/images/bc_exchange_rate_03.png "Business Central - Exchange Rate Updates"){: .full}
 
 5. Key in following fields like screenshot below. Then click ***OK***. \
 ![full](/assets/images/bc_exchange_rate_04.png "Business Central - Exchange Rate Updates"){: .full}
-- Code: FLOAT_DATE
-- Transformation Type: Substring
-- Next Transformation Rule: US_DATE_FORMAT
-- Starting Text: “ “ (This is space not blank)
-- Ending Text: “ GMT” (This is a space, then GMT)
+- **Code:** FLOAT_DATE
+- **Transformation Type:** Substring
+- **Next Transformation Rule:** US_DATE_FORMAT
+- **Starting Text:** “ “ *(This is space not blank)*
+- **Ending Text:** “ GMT” *(This is a space, then GMT)*
 
 6. Click on ***Enabled*** button. \
 ![full](/assets/images/bc_exchange_rate_05.png "Business Central - Exchange Rate Updates"){: .full}
