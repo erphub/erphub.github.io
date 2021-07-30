@@ -19,4 +19,4 @@ Sometimes we need to test features or data before applying to live environment. 
 
 4. You will see a succesful message when the company copied.
 
-<div class="notice--warning">WARNING - It may affect performance of live company depending on size of live company.</div>
+<div class="notice--warning">WARNING - It may affect performance of live company depending on size of live company during copying procedure.</div>
