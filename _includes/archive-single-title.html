@@ -9,6 +9,5 @@
 {% else %}
   {% assign title = post.title %}
 {% endif %}
-<h6>
-  <a href="{{ post.url | relative_url }}" rel="permalink" style="text-decoration: none;">{{ title }}</a>
-</h6>
+
+<a href="{{ post.url | relative_url }}" rel="permalink" style="text-decoration: none;">{{ title }}</a>

@@ -11,10 +11,12 @@ layout: archive
         {% assign parent_cat = category[0] %}
     {% endif %}
     {% if parent_cat == page.categories[0] and category[0] == page.categories[1] %}
-        {% for post in category[1] %}
+      <ul>  
+        {% for post in category[1] limit:5 %}
           {% if post.id != page.id %}  
-            {% include archive-single-title.html type=page.entries_layout %}
+            <li>{% include archive-single-title.html type=page.entries_layout %}</li>
           {% endif %}
         {% endfor %}
+      </ul>
     {% endif %}
 {% endfor %}
