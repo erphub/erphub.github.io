@@ -9,7 +9,7 @@ excerpt: "How to copy whole Dynamics Business Central live company to test compa
 ### Objective
 Sometimes we need to test features or data before applying to live environment. Officially Microsoft provides sandbox with pre-built data set only. As there is no extra license required for creating another companies, we can simply copy whole live environment to new blank company. You just need to name it with obvious name that everyone is able to notice at first glance. Of course you can set user permissions to allow access to this test company for certain users only.
 ### Procedure
-1. Choose the ![Alt](/assets/images/icon_search.png "Search Icon") icon, enter Companies, and then choose the related link.
+1. Choose the ![Alt](/assets/images/icon_search.png "Search Icon") icon, enter ***Companies***, and then choose the related link.
 ![full](/assets/images/bc_create_company_01.png "Business Central - Copying Company"){: .full}
 
 2. Select live company which you like to copy from. Then go to ***Process*** and select ***Copy***.
