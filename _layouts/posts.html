@@ -5,10 +5,9 @@ layout: archive
 {{ content }}
 <!-- /_includes/related.html -->
 
-<div>Blah blah<hr style='display:inline-block; width:300px; border-bottom: 5px;' /></div>
-<hr style="height:1px; border:none; color:#000; background-color:#000;">
-<h3 class="double_line"><span>OTHER POSTS IN THE CATEGORY</span></h3>
-
+<div class="container">
+  <div class="double-bar"><span>OTHER POSTS IN THE CATEGORY</span></div>
+</div>
 <div class="tiles">
   {% for post in site.related_posts limit:3 %}
     <article class="tile__item" itemscope itemtype="http://schema.org/CreativeWork">
