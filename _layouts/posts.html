@@ -5,7 +5,7 @@ layout: archive
 {% include page__meta.html type=include.type %}
 {{ content }}
 <!-- /_includes/related.html -->
-<h3>Other posts in the category <sub>more...</sub></h3> [Small Button](#link){: .btn .btn--primary .btn--small}
+<h3>Other posts in the category <sub>more...</sub></h3> <a href="#" class="btn--primary">more...</a>
 {% for category in site.categories %}
     {% if category[0] == page.categories[0] %}
         {% assign parent_cat = category[0] %}
