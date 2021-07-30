@@ -5,10 +5,10 @@ layout: archive
 {{ content }}
 <!-- /_includes/related.html -->
 <div class="page__related">
-  <h4 class="page__related-title">Other posts in the category</h4>
-  <div class="grid__wrapper">
-    {% for post in site.related_posts limit:4 %}
-      {% include archive-single.html type="grid" %}
-    {% endfor %}
-  </div>
+<h4 class="page__related-title">Other posts in the category</h4>
+<div class="grid__wrapper">
+  {% for post in site.related_posts limit:4 %}
+    {% include archive-single.html type="grid" %}
+  {% endfor %}
+</div>
 </div> 
