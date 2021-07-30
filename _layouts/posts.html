@@ -13,7 +13,7 @@ layout: archive
     {% if parent_cat == page.categories[0] and category[0] == page.categories[1] %}
         {% for post in category[1] %}
           {% if post.id != page.id %}  
-            {% include archive-single.html type=page.entries_layout %}
+            {% include archive-single-title.html type=page.entries_layout %}
           {% endif %}
         {% endfor %}
     {% endif %}
