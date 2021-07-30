@@ -2,10 +2,8 @@
 layout: archive
 ---
 <span style="font-size: 75%;"><a href="https://erphub.github.io" style="text-decoration: none;">HOME</a> / <a href="/{{ page.categories[0] }}/" style="text-decoration: none;">{{ page.categories[0] }}</a> / {{ page.categories[1] }}</span>
-category called
 {{ content }}
 {% assign entries_layout = page.entries_layout | default: 'list' %}
 <div class="entries-{{ entries_layout }}">
   {% include posts-category.html taxonomy=page.taxonomy type=entries_layout %}
 </div>
-{{ page.sidebar_main }}
