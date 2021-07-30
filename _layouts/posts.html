@@ -6,7 +6,8 @@ layout: archive
 {{ content }}
 <!-- /_includes/related.html -->
 
-<h4 class="page__related-title">Other posts in the category</h4>
+<div class=".notice">
+<h4>Other posts in the category</h4>
 {% for category in site.categories %}
     {% if category[0] == page.categories[0] %}
         {% assign parent_cat = category[0] %}
@@ -19,3 +20,4 @@ layout: archive
         {% endfor %}
     {% endif %}
 {% endfor %}
+</div>
