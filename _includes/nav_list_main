@@ -7,6 +7,7 @@
       <!--전체 글 수-->
       <li>
             Total posts: {{sum}} 
+            Oliver CAT: {{ page.first_cat[0] }}
       </li>
       <li>
         <!--span 태그로 카테고리들을 크게 분류 ex) C/C++/C#-->
