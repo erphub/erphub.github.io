@@ -7,7 +7,7 @@
   <ul class="nav__items" id="category_tag_menu">
       <div>
     {% for category in site.categories %}
-        {% if page.first_cat[0] == category[0] %}<h2><img src="/assets/images/logo_Github.png"> {{ category | first}} ({{ category | last | size}})</h2><ul> {% assign uplevel = category[0] %}
+        {% if first_cat[0] == category[0] %}<h2><img src="/assets/images/logo_Github.png"> {{ category | first}} ({{ category | last | size}})</h2><ul> {% assign uplevel = category[0] %}
         {% elsif page.first_cat[1] == category[0] %}</ul><h2><img src="/assets/images/logo_MS_Dynamics_BC.png"> {{ category | first}} ({{ category | last | size}})</h2><ul> {% assign uplevel = category[0] %}
         {% else %} <li><a href="/{{ uplevel }}/{{ category | first }}" style="text-decoration: none;"> {{ category | first}} <span class="roundbg" style="font-size: 75%;">{{ category | last | size}}</span></a></li> 
         {% endif %}
