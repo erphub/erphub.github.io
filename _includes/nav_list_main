@@ -1,5 +1,5 @@
 {% assign sum = site.posts | size %}
-{% assign first_cat = ["Github", "Dynamics Business Central"] %}
+{% assign first_cat = ['Github', 'Dynamics Business Central'] %}
 
 <nav class="nav__list">
   <input id="ac-toc" name="accordion-toc" type="checkbox" />
