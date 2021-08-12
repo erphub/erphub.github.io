@@ -11,7 +11,7 @@ I will show you how to manipulate date fields for reports or filters. Not that c
 ### Syntax
 1. Between date
     * Example: From 01/04/21 to 30/04/21 will be ***01/04/21..30/04/21***  
-
+  
 2. Transations on or before the date
     * Example: Before 01/04/21 will be ***..01/04/21***  
 
