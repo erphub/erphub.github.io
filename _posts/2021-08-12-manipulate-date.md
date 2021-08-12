@@ -7,7 +7,7 @@ excerpt: "Explain how to manipulate date in reports or filter."
 ---
 
 ### Objective
-I will show you how to manipulate date fields for reports or filters. Not that complicated but it has its own syntax.
+Sometimes we need to set date range by demand to get accurate output. It will show you how to manipulate date fields for reports or filters. Not that complicated but it has its own syntax.
 ### Syntax
 1. Between date
     * Example: From 01/04/21 to 30/04/21 will be ***01/04/21..30/04/21***  
