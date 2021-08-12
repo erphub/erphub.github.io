@@ -22,4 +22,4 @@ Sometimes we need to set date range by demand to get accurate output. It will sh
     * Example: Either 01/04/21 or 08/04/21 will be ***01/04/21\|08/04/21***  
 
 
-<div class="notice">NOTICE - Date is in dd/mm/yy format.</div>
+<div class="notice">NOTE - Date is in dd/mm/yy format.</div>
